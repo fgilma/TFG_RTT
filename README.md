@@ -37,3 +37,9 @@ Zenodo: https://zenodo.org/records/20051265
 ---
 
 ## Estructura del repositori
+TFG-WiFi-RTT/
+│
+├── TFG_RTT.ipynb              # Anàlisi Dataset I
+├── RTT_new_data_2.ipynb       # Anàlisi Dataset II
+├── requirements.txt           # Dependències
+└── README.md                  # Aquest fitxer
