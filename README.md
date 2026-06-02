@@ -1,24 +1,39 @@
 # Millora de la precisió del posicionament en interiors mitjançant Wi-Fi RTT
 
+Codi desenvolupat com a part del Treball Final de Grau (TFG) de la 
+Universitat Oberta de Catalunya (UOC).
+
+**Autor:** Francisco Gil Mayo  
+**Director:** Joaquim Torres Sospedra  
+**Titulació:** Grau en Tecnologies i Serveis de Telecomunicació  
+
+---
+
 ## Descripció
-Codi Python per a l'anàlisi i compensació de l'offset sistemàtic 
-en mesures WiFi RTT.
+
+Aquest repositori conté el codi Python per a l'anàlisi i compensació 
+de l'offset sistemàtic en mesures WiFi RTT (Round Trip Time), 
+aplicant les tècniques següents:
+
+- Compensació per offset mitjà
+- Eliminació de valors atípics: criteri 3σ
+- Filtre de Kalman
+- Combinacions de les tècniques anteriors
+
+---
 
 ## Datasets
-- Dataset I: disponible a [enllaç Zenodo]
-- Dataset II: UVIndoorLoc-RTT&RSSI, disponible a [enllaç]
 
-## Requisits
-- Python 3.9+
-- pandas
-- numpy
-- matplotlib
-- scipy
+**Dataset I:**  
+Matey-Sanz, M. & Torres-Sospedra, J. (2025). *Reproducible Package 
+for 'Comparative Analysis of Indoor Positioning Approaches with 
+Wi-Fi RTT from Android Devices'*.  
+Zenodo: https://zenodo.org/records/15391797
 
-## Instal·lació
-pip install -r requirements.txt
+**Dataset II:**  
+UVIndoorLoc-RTT&RSSI (2026).  
+Zenodo: https://zenodo.org/records/20051265
 
-## Ús
-1. Descarregar els datasets i col·locar-los a la carpeta /data
-2. Executar TFG_RTT.ipynb per al Dataset I
-3. Executar RTT_new_data_2.ipynb per al Dataset II 
+---
+
+## Estructura del repositori
